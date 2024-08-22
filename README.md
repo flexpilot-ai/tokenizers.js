@@ -49,36 +49,10 @@ const tokenizer = await AutoTokenizer.from_pretrained('Xenova/bert-base-uncased'
 const { input_ids } = await tokenizer('I love tokenizer.js!');
 ```
 
-## Development
-
-### Building the Project
-
-To build the project, run:
-
-```sh
-npm run build
-```
-
-### Running in Development Mode
-
-To start the development server, run:
-
-```sh
-npm run dev
-```
-
-### Generating Type Definitions
-
-To generate type definitions, run:
-
-```sh
-npm run typegen
-```
-
 ### Issue Tracking
 
 If you encounter any issues, please report them [here](https://github.com/flexpilot-ai/tokenizers.js/issues).
 
 ## License
 
-This project is licensed under the Apache-2.0 License. See the [`LICENSE`](https://github.com/flexpilot-ai/hf-tokenizer.js/blob/main/LICENSE) file for details.
+This project is licensed under the Apache-2.0 License. See the [`LICENSE`](https://github.com/flexpilot-ai/tokenizer.js/blob/main/LICENSE) file for details.
