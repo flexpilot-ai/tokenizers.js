@@ -40,7 +40,7 @@ npm install @flexpilot-ai/tokenizers.js
 Here is a basic example of how to use the tokenizer:
 
 ```javascript
-import { AutoTokenizer } from "./tokenizers.js";
+import { AutoTokenizer } from "@flexpilot-ai/tokenizers.js";
 const tokenizer = await AutoTokenizer.from_pretrained('Xenova/bert-base-uncased');
 const { input_ids } = await tokenizer('I love tokenizers.js!');
 ```

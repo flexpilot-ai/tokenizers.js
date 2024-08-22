@@ -1,9 +1,9 @@
 {
   "name": "@flexpilot-ai/tokenizers.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript implementation of Hugging Face's tokenizers based on transformers.js",
   "main": "./src/tokenizers.js",
-  "types": "./types/tokenizer.d.ts",
+  "types": "./types/tokenizers.d.ts",
   "type": "module",
   "scripts": {
     "typegen": "tsc ./src/tokenizers.js --allowJs --declaration --emitDeclarationOnly --declarationMap --outDir types",
@@ -58,6 +58,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "jsdelivr": "./dist/tokenizer.min.js",
-  "unpkg": "./dist/tokenizer.min.js"
+  "jsdelivr": "./dist/tokenizers.min.js",
+  "unpkg": "./dist/tokenizers.min.js"
 }
