@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/@mohankumarelec/tokenizer.js"><img alt="NPM" src="https://img.shields.io/npm/v/@mohankumarelec/tokenizer.js"></a>
-    <a href="https://www.npmjs.com/package/@mohankumarelec/tokenizer.js"><img alt="NPM Downloads" src="https://img.shields.io/npm/dw/@mohankumarelec/tokenizer.js"></a>
-    <a href="https://www.jsdelivr.com/package/npm/@mohankumarelec/tokenizer.js"><img alt="jsDelivr Hits" src="https://img.shields.io/jsdelivr/npm/hw/@mohankumarelec/tokenizer.js"></a>
+    <a href="https://www.npmjs.com/package/tokenizer.js"><img alt="NPM" src="https://img.shields.io/npm/v/tokenizer.js"></a>
+    <a href="https://www.npmjs.com/package/tokenizer.js"><img alt="NPM Downloads" src="https://img.shields.io/npm/dw/tokenizer.js"></a>
+    <a href="https://www.jsdelivr.com/package/npm/tokenizer.js"><img alt="jsDelivr Hits" src="https://img.shields.io/jsdelivr/npm/hw/tokenizer.js"></a>
     <a href="https://github.com/mohankumarelec/tokenizer.js/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/mohankumarelec/tokenizer.js?color=blue"></a>
     <a href="https://huggingface.co/docs/transformers.js/index"><img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers.js/index.svg?down_color=red&down_message=offline&up_message=online"></a>
 </p>
@@ -36,7 +36,7 @@ This project is ideal for those who require a simple and efficient way to tokeni
 You can install the package via npm:
 
 ```sh
-npm install @mohankumarelec/tokenizer.js
+npm install tokenizer.js
 ```
 
 ## Usage

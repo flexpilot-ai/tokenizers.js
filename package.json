@@ -1,5 +1,5 @@
 {
-  "name": "@mohankumarelec/tokenizer.js",
+  "name": "tokenizer.js",
   "version": "2.17.2",
   "description": "JavaScript implementation of Hugging Face's tokenizers based on transformers.js",
   "main": "./src/tokenizers.js",
