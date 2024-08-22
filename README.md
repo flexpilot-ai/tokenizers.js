@@ -15,8 +15,6 @@
     <a href="https://huggingface.co/docs/transformers.js/index"><img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers.js/index.svg?down_color=red&down_message=offline&up_message=online"></a>
 </p>
 
-# Hugging Face Tokenizers for JavaScript
-
 This repository provides a lightweight, pure JavaScript implementation of Hugging Face's tokenizers. It is based on the tokenizers available in the transformers.js library. By removing dependencies such as ONNX and others, this library focuses solely on efficient text tokenization, offering a streamlined solution without the overhead of additional dependencies.
 
 This project is ideal for those who require a simple and efficient way to tokenize text data using Hugging Face's tokenizers in JavaScript environments, without the need for heavy or unnecessary components.
