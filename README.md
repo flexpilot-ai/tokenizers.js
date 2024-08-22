@@ -36,7 +36,7 @@ This project is ideal for those who require a simple and efficient way to tokeni
 You can install the package via npm:
 
 ```sh
-npm install tokenizer.js
+npm install @flexpilot-ai/tokenizer.js
 ```
 
 ## Usage
