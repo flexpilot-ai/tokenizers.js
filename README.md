@@ -2,9 +2,9 @@
 <p align="center">
     <br/>
     <picture> 
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/xenova/transformers.js/assets/26504141/bd047e0f-aca9-4ff7-ba07-c7ca55442bc4" width="500" style="max-width: 100%;">
-        <source media="(prefers-color-scheme: light)" srcset="https://github.com/xenova/transformers.js/assets/26504141/84a5dc78-f4ea-43f4-96f2-b8c791f30a8e" width="500" style="max-width: 100%;">
-        <img alt="transformers.js javascript library logo" src="https://github.com/xenova/transformers.js/assets/26504141/84a5dc78-f4ea-43f4-96f2-b8c791f30a8e" width="500" style="max-width: 100%;">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohankumarelec/hf-tokenizer.js/main/assets/dark-logo.svg" width="500" style="max-width: 100%;">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohankumarelec/hf-tokenizer.js/main/assets/light-logo.svg" width="500" style="max-width: 100%;">
+        <img alt="transformers.js javascript library logo" src="https://raw.githubusercontent.com/mohankumarelec/hf-tokenizer.js/main/assets/light-logo.svg" width="500" style="max-width: 100%;">
     </picture>
     <br/>
 </p>
@@ -17,7 +17,11 @@
     <a href="https://huggingface.co/docs/transformers.js/index"><img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers.js/index.svg?down_color=red&down_message=offline&up_message=online"></a>
 </p>
 
-JavaScript implementation of Hugging Face's tokenizers based on transformers.js.
+# Hugging Face Tokenizers for JavaScript
+
+This repository provides a lightweight, pure JavaScript implementation of Hugging Face's tokenizers. It is based on the tokenizers available in the transformers.js library. By removing dependencies such as ONNX and others, this library focuses solely on efficient text tokenization, offering a streamlined solution without the overhead of additional dependencies.
+
+This project is ideal for those who require a simple and efficient way to tokenize text data using Hugging Face's tokenizers in JavaScript environments, without the need for heavy or unnecessary components.
 
 ## Table of Contents
 
