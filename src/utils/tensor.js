@@ -7,8 +7,6 @@
  * @module utils/tensor
  */
 
-import { ONNX } from '../backends/onnx.js';
-
 import {
     interpolate_data,
     permute_data
@@ -35,7 +33,7 @@ const DataTypeMap = Object.freeze({
  * @typedef {import('./maths.js').AnyTypedArray | any[]} DataArray
  */
 
-const ONNXTensor = ONNX.Tensor;
+const ONNXTensor = class {};;
 
 export class Tensor {
     /** @type {number[]} Dimensions of the tensor. */
@@ -52,41 +50,11 @@ export class Tensor {
 
     /**
      * Create a new Tensor or copy an existing Tensor.
-     * @param {[DataType, DataArray, number[]]|[import('onnxruntime-common').Tensor]} args
      */
     constructor(...args) {
-        if (args[0] instanceof ONNXTensor) {
-            // Create shallow copy
-            Object.assign(this, args[0]);
-
-        } else {
-            // Create new tensor
-            Object.assign(this, new ONNXTensor(
-                /** @type {DataType} */(args[0]),
-                /** @type {Exclude<import('./maths.js').AnyTypedArray, Uint8ClampedArray>} */(args[1]),
-                args[2]
-            ));
-        }
-
-        return new Proxy(this, {
-            get: (obj, key) => {
-                if (typeof key === 'string') {
-                    let index = Number(key);
-                    if (Number.isInteger(index)) {
-                        // key is an integer (i.e., index)
-                        return obj._getitem(index);
-                    }
-                }
-                // @ts-ignore
-                return obj[key];
-            },
-            set: (obj, key, value) => {
-                // TODO allow setting of data
-
-                // @ts-ignore
-                return obj[key] = value;
-            }
-        });
+        throw new Error(
+          `Please set 'return_tensor=false' to avoid this error`
+        );
     }
 
     /**
