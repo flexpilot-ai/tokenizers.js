@@ -47,7 +47,7 @@ const tokenizer = await AutoTokenizer.from_pretrained('Xenova/bert-base-uncased'
 const { input_ids } = await tokenizer('I love tokenizers.js!');
 ```
 
-### Issue Tracking
+## Issue Tracking
 
 If you encounter any issues, please report them [here](https://github.com/flexpilot-ai/tokenizers.js/issues).
 
