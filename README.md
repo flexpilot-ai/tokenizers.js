@@ -2,9 +2,9 @@
 <p align="center">
     <br/>
     <picture> 
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohankumarelec/tokenizer.js/main/assets/dark-logo.svg" width="500" style="max-width: 100%;">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohankumarelec/tokenizer.js/main/assets/light-logo.svg" width="500" style="max-width: 100%;">
-        <img alt="transformers.js javascript library logo" src="https://raw.githubusercontent.com/mohankumarelec/tokenizer.js/main/assets/light-logo.svg" width="500" style="max-width: 100%;">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/flexpilot-ai/tokenizers.js/main/assets/dark-logo.svg" width="500" style="max-width: 100%;">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/flexpilot-ai/tokenizers.js/main/assets/light-logo.svg" width="500" style="max-width: 100%;">
+        <img alt="transformers.js javascript library logo" src="https://raw.githubusercontent.com/flexpilot-ai/tokenizers.js/main/assets/light-logo.svg" width="500" style="max-width: 100%;">
     </picture>
     <br/>
 </p>
@@ -13,7 +13,7 @@
     <a href="https://www.npmjs.com/package/tokenizer.js"><img alt="NPM" src="https://img.shields.io/npm/v/tokenizer.js"></a>
     <a href="https://www.npmjs.com/package/tokenizer.js"><img alt="NPM Downloads" src="https://img.shields.io/npm/dw/tokenizer.js"></a>
     <a href="https://www.jsdelivr.com/package/npm/tokenizer.js"><img alt="jsDelivr Hits" src="https://img.shields.io/jsdelivr/npm/hw/tokenizer.js"></a>
-    <a href="https://github.com/mohankumarelec/tokenizer.js/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/mohankumarelec/tokenizer.js?color=blue"></a>
+    <a href="https://github.com/flexpilot-ai/tokenizers.js/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/flexpilot-ai/tokenizers.js?color=blue"></a>
     <a href="https://huggingface.co/docs/transformers.js/index"><img alt="Documentation" src="https://img.shields.io/website/http/huggingface.co/docs/transformers.js/index.svg?down_color=red&down_message=offline&up_message=online"></a>
 </p>
 
@@ -77,8 +77,8 @@ npm run typegen
 
 ### Issue Tracking
 
-If you encounter any issues, please report them [here](https://github.com/mohankumarelec/tokenizer.js/issues).
+If you encounter any issues, please report them [here](https://github.com/flexpilot-ai/tokenizers.js/issues).
 
 ## License
 
-This project is licensed under the Apache-2.0 License. See the [`LICENSE`](https://github.com/mohankumarelec/hf-tokenizer.js/blob/main/LICENSE) file for details.
+This project is licensed under the Apache-2.0 License. See the [`LICENSE`](https://github.com/flexpilot-ai/hf-tokenizer.js/blob/main/LICENSE) file for details.
